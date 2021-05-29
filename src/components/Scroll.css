@@ -1,0 +1,6 @@
+.scroll {
+  overflow: scroll;
+  border: 5px solid black;
+  height: 500px;
+  overflow-x: hidden;
+}
