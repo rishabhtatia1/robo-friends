@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
+import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
 import "tachyons";
 import App from "./containers/App";
 import { Provider } from "react-redux";

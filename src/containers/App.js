@@ -6,6 +6,7 @@ import Scroll from "../components/Scroll";
 import { connect } from "react-redux";
 import { setSearchField } from "../store/actions/searchAction";
 import { fetchRobots } from "../store/actions/fetchRobotsAction";
+import Header from "../components/Header";
 
 const mapStateToProps = (state) => ({
   searchField: state.searchRobots.searchField,
@@ -36,7 +37,7 @@ const App = (props) => {
   );
   return (
     <div className="tc">
-      <h1 className="f1">ROBO FRIENDS</h1>
+      <Header />
       <SearchBox
         inputSearch={searchField}
         searchOnChangeHandler={onSearchChange}
