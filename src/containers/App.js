@@ -39,6 +39,7 @@ const App = (props) => {
     <div className="tc">
       <Header />
       <SearchBox
+        ariaLabel="Search Robots"
         inputSearch={searchField}
         searchOnChangeHandler={onSearchChange}
       />
